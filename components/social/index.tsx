@@ -18,7 +18,7 @@ const social_list = [
   },
   {
     icon: tele,
-    url: "",
+    url: "https://t.me/BongoZk",
     text: "Telegram",
   },
   {
@@ -68,6 +68,7 @@ export default function SocialNetwork() {
             }}
             key={index}
             href={item.url}
+            target="_blank"
             onMouseEnter={() => setTextMarquee(item.text)} // Set hovered text when mouse enters
             onMouseLeave={() => setTextMarquee("")} // Clear hovered text when mouse leaves
             className="z-[3] flex items-center justify-center rounded-full bg-fuchsia-200 p-4 max-sm:p-3"

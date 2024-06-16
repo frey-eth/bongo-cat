@@ -43,7 +43,7 @@ const ClaimAirdrop = () => {
               id="about"
               type="text"
               disabled
-              placeholder="123456789000"
+              placeholder="0"
               className="rounded-lg px-4 py-2 bg-transparent border-[3px] border-fuchsia-700 placeholder:text-white"
             />
           </div>

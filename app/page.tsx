@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Banner from "@/components/banner";
 import ClaimAirdrop from "@/components/claim";
 import Footer from "@/components/footer";
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner />
       <ClaimAirdrop />
       <SocialNetwork />
+      <About />
       <Tokenomics />
       <Footer />
     </main>
