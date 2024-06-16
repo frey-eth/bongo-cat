@@ -18,7 +18,7 @@ const MenuDropdown = () => {
       <MenuItems
         anchor="bottom"
         className={
-          "z-[200] backdrop-blur-xl text-[23px] text-center w-full h-full px-6 text-white py-6 bg mt-5 whitespace-nowrap font-crotah "
+          "z-[200] backdrop-blur-xl bg-black/70 text-[23px] text-center w-full h-full px-6 text-white py-6 bg mt-5 whitespace-nowrap font-crotah "
         }
       >
         <MenuItem>
