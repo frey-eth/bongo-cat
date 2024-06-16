@@ -7,4 +7,7 @@
   src: url("/fonts/crotah/crotah.ttf") format("trueType");
 }
 
-
+@font-face {
+  font-family: "Sanctuary";
+  src: url("/fonts/sanctuary/sanctuary.ttf") format("trueType");
+}

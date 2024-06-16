@@ -17,6 +17,7 @@ const config: Config = {
 
     fontFamily: {
       crotah: "Crotah, sans-serif",
+      sanctuary: "Sanctuary, sans-serif",
     },
   },
   plugins: [],
