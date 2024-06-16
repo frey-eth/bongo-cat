@@ -8,17 +8,20 @@ const Header = () => {
     <div className="w-full px-10 py-8 fixed z-[100]">
       <div className="px-20 py-4 flex flex-row items-center justify-between h-fit w-full font-crotah border-[2px] rounded-lg shadow-lg backdrop-blur">
         <div className="flex flex-row rounded-md justify-between items-center p-2 h-fit bg-black text-white">
-          <div className="flex flex-row items-center gap-3 text-[28px] ">
+          <Link
+            href={"/"}
+            className="flex flex-row items-center gap-3 text-[28px] "
+          >
             <div className="h-[56px] w-[56px] rounded overflow-hidden">
               <Image src={logo_gif} alt="logo" />
             </div>
             Bongo Cat
-          </div>
+          </Link>
         </div>
         <div className="flex flex-row items-center gap-10 text-[20px] text-white">
-          <Link href="/">About</Link>
-          <Link href="/">Tokenomics</Link>
-          <Link href="/">How to buy</Link>
+          <Link href="/#about">About</Link>
+          <Link href="/#tokenomics">Tokenomics</Link>
+          <Link href="/#buy">How to buy</Link>
           <ButtonConnect />
         </div>
       </div>
