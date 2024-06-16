@@ -46,7 +46,7 @@ export default function SocialNetwork() {
   const [textMarquee, setTextMarquee] = useState<string>("");
   return (
     <div
-      id="partner"
+      id="tokenomics"
       className="flex w-full items-center justify-center gap-[40px] overflow-hidden bg-white/30 py-4 max-sm:gap-3 max-sm:p-4"
     >
       <div className="absolute h-full w-full overflow-hidden">
@@ -70,7 +70,7 @@ export default function SocialNetwork() {
             href={item.url}
             onMouseEnter={() => setTextMarquee(item.text)} // Set hovered text when mouse enters
             onMouseLeave={() => setTextMarquee("")} // Clear hovered text when mouse leaves
-            className="z-[3] flex items-center justify-center rounded-full bg-[#EBCF79] p-4 max-sm:p-3"
+            className="z-[3] flex items-center justify-center rounded-full bg-fuchsia-200 p-4 max-sm:p-3"
           >
             <Image
               src={item.icon}

@@ -40,6 +40,7 @@ const ClaimAirdrop = () => {
             </div>
 
             <input
+              id="about"
               type="text"
               disabled
               placeholder="123456789000"
