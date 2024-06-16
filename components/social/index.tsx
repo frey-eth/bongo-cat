@@ -13,7 +13,7 @@ import Marquee from "react-fast-marquee";
 const social_list = [
   {
     icon: X,
-    url: "",
+    url: "https://x.com/ZkBongo",
     text: "X",
   },
   {
@@ -23,22 +23,22 @@ const social_list = [
   },
   {
     icon: coingecko,
-    url: "",
+    url: "https://www.coingecko.com/",
     text: "Coingecko",
   },
   {
     icon: coinmarkercap,
-    url: "",
+    url: "https://coinmarketcap.com/",
     text: "Coinmarketcap",
   },
   {
     icon: eagle,
-    url: "",
+    url: "https://dexscreener.com/",
     text: "Dexscreener",
   },
   {
     icon: dex,
-    url: "",
+    url: "dextools.io/",
     text: "Dextool",
   },
 ];

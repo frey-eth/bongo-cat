@@ -6,7 +6,16 @@ import { cookieToInitialState } from "wagmi";
 import { config } from "../providers/wagmiConfig";
 export const metadata: Metadata = {
   title: "Bongo Cat",
-  description: "Cat Musician",
+  description:
+    "The most memeable meowmeowcoin in existence. Bongo can do anything, it’s time for Bongo to take reign!!!!!!",
+  openGraph: {
+    title: "Bongo Cat",
+    description:
+      "The most memeable meowmeowcoin in existence. Bongo can do anything, it’s time for Bongo to take reign!!!!!!",
+    siteName: "Bongo Cat",
+    url: "https://www.zkbongo.xyz/",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
