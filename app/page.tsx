@@ -2,6 +2,7 @@ import Banner from "@/components/banner";
 import ClaimAirdrop from "@/components/claim";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import SocialNetwork from "@/components/social";
 import Tokenomics from "@/components/tokenomic";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Banner />
       <ClaimAirdrop />
+      <SocialNetwork />
       <Tokenomics />
       <Footer />
     </main>

@@ -18,7 +18,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body>
+      <body className="overflow-y-auto">
         <Web3ModalProvider initialState={initialState}>
           {children}
         </Web3ModalProvider>
