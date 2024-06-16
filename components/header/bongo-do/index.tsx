@@ -22,7 +22,7 @@ export default function BongoDo() {
         >
           <PopoverPanel
             anchor="bottom"
-            className="divide-y divide-white/5 rounded-xl bg-white/5 text-sm/6 [--anchor-gap:var(--spacing-5)] outline-none"
+            className="divide-y divide-white/5 rounded-xl backdrop-blur-lg border text-sm/6 [--anchor-gap:var(--spacing-5)] outline-none"
           >
             <div className="p-3">
               <a
