@@ -46,7 +46,6 @@ export default function SocialNetwork() {
   const [textMarquee, setTextMarquee] = useState<string>("");
   return (
     <div
-      id="tokenomics"
       className="flex w-full items-center justify-center gap-[40px] overflow-hidden bg-white/30 py-4 max-sm:gap-3 max-sm:p-4"
     >
       <div className="absolute h-full w-full overflow-hidden">

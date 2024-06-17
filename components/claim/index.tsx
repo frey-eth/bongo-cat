@@ -3,7 +3,7 @@ import Image from "next/image";
 import ButtonClaim from "../commons/buttons/button-claim";
 const ClaimAirdrop = () => {
   return (
-    <div className="p-2">
+    <div id="buy" className="p-2">
       <div className="w-full md:max-w-[800px] border-2 border-blue-600 rounded-lg p-8 bg-[#1a1d2c] md:-mt-[100px] -mt-[240px] flex flex-col gap-4 ">
         <div className="text-center  flex gap-4 flex-col font-crotah">
           <h3 className="text-[28px] text-cyan-500">Claim Your Airdrop</h3>

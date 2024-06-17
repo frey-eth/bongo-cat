@@ -4,7 +4,7 @@ import DonutChart from "./donut-chart";
 
 const Tokenomics = () => {
   return (
-    <div className="w-full flex flex-col md:gap-4 px-10">
+    <div id="tokenomics" className="w-full flex flex-col md:gap-4 px-10">
       <h1 className=" font-sanctuary text-white md:text-[120px] text-[52px] text-center">
         TOKENOMICS
       </h1>
