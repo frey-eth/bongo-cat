@@ -36,7 +36,7 @@ export default function Home() {
                   {walletAddress.address.slice(0, 5)}...
                   {walletAddress.address.slice(-7)}
                 </p>
-                <p className="mt-1 text-sm text-gray-500">
+                <p className="mt-1 text-sm text-gray-500 font-crotah">
                   Has claimed $BONGO airdrop
                 </p>
               </div>
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="flex border-l border-gray-200">
             <button
               onClick={() => toast.dismiss(t.id)}
-              className="w-full font-sanctuary border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full font-sanctuary border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-black hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               X
             </button>
