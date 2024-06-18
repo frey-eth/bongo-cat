@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import Web3ModalProvider from "@/providers/web3Provider";
 import { cookieToInitialState } from "wagmi";
 import { config } from "../providers/wagmiConfig";
+import { Toaster } from "react-hot-toast";
 export const metadata: Metadata = {
   title: "Bongo Cat",
   description:
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Web3ModalProvider initialState={initialState}>
           <div className="overflow-hidden">{children}</div>
         </Web3ModalProvider>
+        <Toaster reverseOrder={false} position="bottom-right" />
       </body>
     </html>
   );
