@@ -2,7 +2,7 @@ import cat_gif from "@images/about/mongo.gif";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="w-full flex flex-col md:gap-4 px-10">
+    <div className="w-full flex flex-col md:gap-4 px-10" id="about">
       <h1 className=" font-sanctuary text-white md:text-[120px] text-[52px] text-center">
         About
       </h1>

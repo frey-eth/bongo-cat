@@ -12,6 +12,11 @@ export default function Home() {
       <Header />
       <Banner />
       <ClaimAirdrop />
+      <div className="text-decoration-none">
+        <h1 className="connect-footer my-5 text-white text-center p-5 font-bold text-[60px] md:text-[200px] font-sanctuary uppercase relative">
+          Launch On ZKsync
+        </h1>
+      </div>
       <SocialNetwork />
       <About />
       <Tokenomics />
