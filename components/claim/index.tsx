@@ -1,7 +1,27 @@
+"use client";
 import icon_clock from "@icons/clock.svg";
 import Image from "next/image";
 import ButtonClaim from "../commons/buttons/button-claim";
+import { useReadContract } from "wagmi";
+import erc_abi from "../../contracts/ERC20_ABI.json";
+import { Address } from "viem";
+import { useEffect } from "react";
+
 const ClaimAirdrop = () => {
+  const { data, isFetched, error } = useReadContract({
+    abi: erc_abi,
+    address: process.env.NEXT_PUBLIC_ERC20_ADDRESS as Address,
+    functionName: "totalSupply",
+    // args: [process.env.NEXT_PUBLIC_CLAIM_ADDRESS as Address],
+  });
+
+  useEffect(() => {
+    if (error) {
+      console.error("Error reading contract:", error);
+    }
+    console.log("Contract data:", data);
+    console.log("Data fetched:", isFetched);
+  }, [data, isFetched, error]);
   return (
     <div id="buy" className="p-2">
       <div className="w-full md:max-w-[800px] border-2 border-blue-600 rounded-lg p-8 bg-[#1a1d2c] md:-mt-[100px] -mt-[240px] flex flex-col gap-4 ">
@@ -30,7 +50,7 @@ const ClaimAirdrop = () => {
           <div className="flex flex-col gap-2 w-full font-crotah">
             <div className="w-full flex flex-row justify-between text-white opacity-70">
               <p>Received</p>
-              <p>21000B</p>
+              <p>21.000B</p>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
               <div
