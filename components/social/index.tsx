@@ -13,7 +13,7 @@ import Marquee from "react-fast-marquee";
 const social_list = [
   {
     icon: X,
-    url: "https://x.com/ZkBongo",
+    url: "https://x.com/bongo_on_solana",
     text: "X",
   },
   {

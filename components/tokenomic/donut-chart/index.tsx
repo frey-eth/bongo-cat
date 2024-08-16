@@ -6,7 +6,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const DonutChart = () => {
   const data = {
-    labels: ["Airdop", "Teams", "Marketing", "Liquidity", "Buy back"],
+    labels: ["Liquidity", "Liquidity", "Liquidity", "Liquidity", "Liquidity"],
     datasets: [
       {
         label: "% Distribution",
